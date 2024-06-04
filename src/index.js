@@ -1,7 +1,8 @@
 import './reset.css';
 import './style.css';
 import Home from './components/home.js';
-import Menu from './components/menu.js'
+import Menu from './components/menu.js';
+import About from './components/about.js';
 
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -27,5 +28,6 @@ homeButton.addEventListener("click", () => {
 
 const aboutButton = document.querySelector("#about");
 aboutButton.addEventListener("click", () => {
-    alert("about");
+    const about = new About("#content");
+    about.renderPage();
 })
