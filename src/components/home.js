@@ -12,7 +12,7 @@ export default class Home {
         <img src="${restaurantImage}" width="600px" alt="picture of restaurant">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere maxime deleniti facilis nihil fugit veritatis ab inventore perspiciatis itaque saepe cum illum ipsa, libero labore blanditiis quisquam sit! Alias, consequatur.</p>
         </div>
-        `
+        `;
 
         this.parentElement.innerHTML = toRender;
     }
