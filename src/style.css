@@ -8,6 +8,10 @@
     --fourth-color: #5C2FC2;
 }
 
+img {
+    height: auto;
+}
+
 .body-container {
     min-height: 100vh;
     min-width: 100vw;
@@ -53,4 +57,19 @@
     background-color: var(--first-color);
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#home-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    h1 {
+        font-size: 3rem;
+    }
+    p {
+        font-size: 2rem;
+    }
 }
